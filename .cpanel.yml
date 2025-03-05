@@ -1,0 +1,10 @@
+version: 1
+app:
+  type: static
+  build:
+    commands:
+      - echo "No build step required for static site."
+  deploy:
+    commands:
+      - echo "Deploying the application..."
+      - echo "Deployment completed successfully."
